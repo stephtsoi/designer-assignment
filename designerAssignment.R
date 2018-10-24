@@ -1,0 +1,7 @@
+designers = c("designer1", "designer2", "designer3", "designer4")
+designerOrder = sample(designers)
+print(designerOrder)
+pm = c("PM1", "PM2", "PM3", "PM4","PM5","PM6","PM7","PM8","PM9")
+pmOrder = sample(pm)
+print(pmOrder)
+cbind(pmOrder,designerOrder)
